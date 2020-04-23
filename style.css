@@ -303,8 +303,8 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	box-shadow: 1px 1.732px 5px 0px rgba(235, 235, 235, 0.75);
 }
 .header_s .top-header {
-	padding-bottom: 30px;
-	padding-top: 33px;
+	padding-bottom: 0;
+	padding-top: 0;
 }
 .top-header .top-social {
 	margin: 16px 0;
@@ -2943,8 +2943,13 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 /* - max-width: 991 */
 @media (max-width: 991px) {
 	/* + Header */
+	.header_s .mob-clr-change{
+		background-color: #93C4E2;;
+	}
+
 	.header_s {
 		border-bottom: 1px solid #eeeeee;
+
 	}
 	.header_s1 .top-header {
 		padding: 0;
