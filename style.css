@@ -66,7 +66,7 @@
 
 body {
 	font-family: 'Hind', sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	color: #151515;
 	overflow-x: hidden;
 }
@@ -1660,7 +1660,6 @@ div.type-post {
 	max-width: 100%;
 	margin-top: 27px;
 	text-align: justify;
-	font-size: 20px;
 }
 .blog-single .type-post .entry-content {
 	margin-top: 50px;
