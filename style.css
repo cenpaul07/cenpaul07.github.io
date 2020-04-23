@@ -66,7 +66,7 @@
 
 body {
 	font-family: 'Poppins', sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 25px;
 	color: #151515;
 	overflow-x: hidden;
@@ -667,10 +667,10 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	transition: all 1s ease 0s;
 }
 .instagram-block > ul li a:hover::after {
-	opacity: 1;
+	opacity: 0;
 }
 .instagram-block > ul li a:hover::before {
-	opacity: 1;
+	opacity: 0;
 }
 .ftr-social {
 	margin-top: 50px;

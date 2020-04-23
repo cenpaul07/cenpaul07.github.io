@@ -29,6 +29,7 @@
 
     <!-- Library - Google Font Familys -->
     <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700%7cMontserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- Library -->
     <link href="assets/css/lib.css" rel="stylesheet">
@@ -41,12 +42,8 @@
     <script src="js/html5/respond.min.js"></script>
     <![endif]-->
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <!--	<script>-->
-    <!--		$(function(){-->
-    <!--			alert('sad');-->
-    <!--			$("#header").load("blog-single.html");-->
-    <!--		});-->
-    <!--	</script>-->
+
+
 
 </head>
 
@@ -58,6 +55,16 @@
     </div>
 </div><!-- Loader /- -->
 
+<!--<div id="header">-->
+
+<!--</div>-->
+
+<!--<script>-->
+<!--    $(function(){-->
+<!--        alert('sad');-->
+<!--        $("#header").load("messenger_header.html");-->
+<!--    });-->
+<!--</script>-->
 
 <!-- Header Section -->
 <header class="container-fluid no-left-padding no-right-padding header_s header-fix header_s1">
@@ -69,29 +76,9 @@
             <!-- Container -->
             <div class="container">
                 <div class="row">
-<!--                    <div class="col-lg-4 col-6">-->
-<!--                        <ul class="top-social">-->
-<!--                            <li><a href="#" title="Facebook"><i class="ion-social-facebook-outline"></i></a></li>-->
-<!--                            <li><a href="#" title="Twitter"><i class="ion-social-twitter-outline"></i></a></li>-->
-<!--                            <li><a href="#" title="Instagram"><i class="ion-social-instagram-outline"></i></a></li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
                     <div class="col-lg-12 logo-block">
                         <a href="index.html" title="Logo">SHALOM MESSENGER</a>
                     </div>
-<!--                    <div class="col-lg-4 col-6">-->
-<!--                        <ul class="top-right user-info">-->
-<!--                            <li><a href="#search-box" data-toggle="collapse" class="search collapsed" title="Search"><i class="pe-7s-search sr-ic-open"></i><i class="pe-7s-close sr-ic-close"></i></a></li>-->
-<!--                            <li class="dropdown">-->
-<!--                                <a class="dropdown-toggle" href="#"><i class="pe-7s-user"></i></a>-->
-<!--                                <ul class="dropdown-menu">-->
-<!--                                    <li><a class="dropdown-item" href="#" title="Sign In">Sign In</a></li>-->
-<!--                                    <li><a class="dropdown-item" href="#" title="Subscribe">Subscribe </a></li>-->
-<!--                                    <li><a class="dropdown-item" href="#" title="Log In">Log In</a></li>-->
-<!--                                </ul>-->
-<!--                            </li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
                 </div>
             </div><!-- Container /- -->
         </div><!-- Top Header /- -->
@@ -134,33 +121,13 @@
                                 <li><a class="dropdown-item" href="pdf/TurningPainsintoGains.docx" title="Turning Pains into Gains" download>Turning Pains into Gains</a></li>
                             </ul>
                         </li>
-                        <li><a class="nav-link" title="Contact" href="Python3.pdf" download>Contact</a></li>
+                        <li><a class="nav-link" title="Contact" href="#">Contact</a></li>
 <!--                        <li><button id="btn-download" type="button" class="btn-download btn btn-outline-dark">Download</button></li>-->
-
                     </ul>
                 </div>
-<!--                <div id="loginpanel-1" class="desktop-hide">-->
-<!--                    <div class="right toggle" id="toggle-1">-->
-<!--                        <a id="slideit-1" class="slideit" href="#slidepanel"><i class="fo-icons fa fa-inbox"></i></a>-->
-<!--                        <a id="closeit-1" class="closeit" href="#slidepanel"><i class="fo-icons fa fa-close"></i></a>-->
-<!--                    </div>-->
-<!--                </div>-->
             </nav>
         </div><!-- Container /- -->
     </div><!-- Menu Block /- -->
-    <!-- Search Box -->
-    <div class="search-box collapse" id="search-box">
-        <div class="container">
-            <form>
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search..." required>
-                    <span class="input-group-btn">
-						<button class="btn btn-secondary" type="submit"><i class="pe-7s-search"></i></button>
-					</span>
-                </div>
-            </form>
-        </div>
-    </div><!-- Search Box /- -->
 </header><!-- Header Section /- -->
 
 <div class="main-container">
@@ -172,7 +139,7 @@
             <!-- Container -->
             <div class="container">
                 <div class="entry-cover">
-                    <img src="http://placehold.it/1170x605" alt="Post" />
+                    <img src="assets/images/banner/Roy-achan_1170x605.jpg" alt="Post" />
                 </div>
                 <div class="row">
                     <!-- Content Area -->
@@ -180,9 +147,11 @@
                         <article class="type-post">
                             <div class="entry-content">
                                 <div class="entry-header">
-                                    <h3 class="entry-title">Lorem Ipsum Lorem</h3>
+                                    <h3 class="entry-title">
+                                        <script>document.write(document.title);</script>
+                                    </h3>
                                     <div class="post-meta">
-                                        <span class="byline">by <a href="#" title="Indesign">Author Name</a></span>
+                                        <span class="byline">by <a href="#" title="Indesign" id="author">Author Name</a></span>
                                         <span class="post-date">MARCH 17, 2017</span>
                                     </div>
                                 </div>
@@ -201,17 +170,17 @@
                                 <p>
                                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
                                 </p>
-
-                                <div class="entry-footer">
-
-                                </div>
                             </div>
                         </article>
                         <!-- About Author -->
                         <div class="about-author-box">
                             <div class="author">
                                 <i><img src="http://placehold.it/170x170" alt="Author" /></i>
-                                <h4>Author Name</h4>
+                                <h4>
+                                    <script>
+                                        document.write(document.getElementById('author').innerHTML);
+                                    </script>
+                                </h4>
                                 <p>Author description goes here.Author description goes here.Author description goes here.Author description goes here.Author description goes here.Author description goes here. </p>
                             </div>
                         </div><!-- About Author /- -->
@@ -220,20 +189,20 @@
                             <h3>You May Also Like</h3>
                             <div class="related-post-block" >
                                 <div class="related-post-box">
-                                    <a href="#"><img src="http://placehold.it/270x220" alt="Post" /></a>
-                                    <h3><a href="#" title="A penguin bicycled behind an escalator">A penguin bicycled behind an escalator</a></h3>
+                                    <a href="#"><img  src="assets/images/banner/Roy-achan_1170x605.jpg" alt="Post" /></a>
+                                    <h3><a href="#" title="A penguin bicycled behind an escalator">ഭയപ്പെടേണ്ട രക്ഷകൻ വരുന്നുണ്ട്</a></h3>
                                 </div>
                                 <div class="related-post-box">
-                                    <a href="#"><img src="http://placehold.it/270x220" alt="Post" /></a>
-                                    <h3><a href="#" title="There was a legend about the well in the garden">There was a legend about the well in the garden</a></h3>
+                                    <a href="#"><img src="assets/images/banner/Shalom-Media-Gallery.jpg" alt="Post" /></a>
+                                    <h3><a href="#" title="There was a legend about the well in the garden">Media Gallery</a></h3>
                                 </div>
                                 <div class="related-post-box">
-                                    <a href="#"><img src="http://placehold.it/270x220" alt="Post" /></a>
-                                    <h3><a href="#" title="The entrance to the tunnel was his only way out">The entrance to the tunnel was his only way out</a></h3>
+                                    <a href="#"><img src="assets/images/banner/Shalom_1170x605.jpg" alt="Post" /></a>
+                                    <h3><a href="#" title="The entrance to the tunnel was his only way out">ശാലോം എന്ന വേദന സംഹാരി</a></h3>
                                 </div>
                                 <div class="related-post-box">
-                                    <a href="#"><img src="http://placehold.it/270x220" alt="Post" /></a>
-                                    <h3><a href="#" title="He was going back to a place he'd hoped">He was going back to a place he'd hoped</a></h3>
+                                    <a href="#"><img src="assets/images/banner/Turning-Pain-into-gain_1170x605.jpg" alt="Post" /></a>
+                                    <h3><a href="#" title="He was going back to a place he'd hoped">Turning Pains into Gains</a></h3>
                                 </div>
                             </div>
                         </div><!-- Related Post /- -->
@@ -251,23 +220,22 @@
     <!-- Instagram -->
     <div class="container-fluid no-left-padding no-right-padding instagram-block">
         <ul class="instagram-carousel">
-            <li><a href="#"><img src="http://placehold.it/319x319/aaa" alt="Instagram" /></a></li>
-            <li><a href="#"><img src="http://placehold.it/319x319" alt="Instagram" /></a></li>
-            <li><a href="#"><img src="http://placehold.it/319x319/aaa" alt="Instagram" /></a></li>
-            <li><a href="#"><img src="http://placehold.it/319x319" alt="Instagram" /></a></li>
-            <li><a href="#"><img src="http://placehold.it/319x319/aaa" alt="Instagram" /></a></li>
-            <li><a href="#"><img src="http://placehold.it/319x319" alt="Instagram" /></a></li>
+            <li><a href="https://shalomstore.webc.in/"><img src="assets/images/Shalom-MS.jpg" alt="Shalom Media Store" /></a></li>
+            <li><a href="https://shalomtidings.org/"><img src="assets/images/Shalom-Tidings.jpg" alt="Shalom Tidings" /></a></li>
+            <li><a href="https://www.shalomtimes.com/"><img src="assets/images/Shalom-Times.jpg" alt="Shalom Times" /></a></li>
+            <li><a href="https://shalomworld.org/"><img src="assets/images/Shalom-World.jpg" alt="Shalom World" /></a></li>
+            <li><a href="https://shalomworld.org/news"><img src="assets/images/SW-nes.jpg" alt="SW News" /></a></li>
+            <li><a href="https://shalomworld.org/shows/kids"><img src="assets/images/SW-pals.jpg" alt="SW Pals" /></a></li>
         </ul>
     </div><!-- Instagram /- -->
     <!-- Container -->
     <div class="container">
         <ul class="ftr-social">
-            <li><a href="#" title="Facebook"><i class="fa fa-facebook"></i>Facebook</a></li>
-            <li><a href="#" title="Twitter"><i class="fa fa-twitter"></i>twitter</a></li>
-            <li><a href="#" title="Instagram"><i class="fa fa-instagram"></i>Instagram</a></li>
-            <li><a href="#" title="Google Plus"><i class="fa fa-google-plus"></i>Google plus</a></li>
-            <li><a href="#" title="Pinterest"><i class="fa fa-pinterest-p"></i>pinterest</a></li>
-            <li><a href="#" title="Youtube"><i class="fa fa-youtube"></i>youtube</a></li>
+            <li><a href="https://www.facebook.com/shalomworld" title="Facebook"><i class="fa fa-facebook"></i>Facebook</a></li>
+            <li><a href="https://twitter.com/shalomworldtv" title="Twitter"><i class="fa fa-twitter"></i>twitter</a></li>
+            <li><a href="https://www.instagram.com/shalomworldtv/" title="Instagram"><i class="fa fa-instagram"></i>Instagram</a></li>
+            <li><a href="https://in.pinterest.com/shalomworldtv/" title="Pinterest"><i class="fa fa-pinterest-p"></i>pinterest</a></li>
+            <li><a href="https://www.youtube.com/user/ShalomWorldWide" title="Youtube"><i class="fa fa-youtube"></i>youtube</a></li>
         </ul>
         <div class="copyright">
             <p>Copyright@<script>document.write(new Date().getFullYear())</script> SHALOM MESSENGER</p>
