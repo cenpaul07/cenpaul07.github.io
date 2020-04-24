@@ -299,7 +299,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 } */
 /* - Header 1 */
 .header_s1 {
-	background-color: #93C4E2;
+	background-color: #E6B32F;
 	box-shadow: 1px 1.732px 5px 0px rgba(235, 235, 235, 0.75);
 }
 .header_s .top-header {
@@ -492,12 +492,12 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 .header_s .menu-block .ownavigation .navbar-nav > .active > a:hover, 
 .header_s .menu-block .ownavigation .navbar-nav li:hover > a, 
 .header_s .menu-block .ownavigation .navbar-nav li a:hover {
-	color: #717171;
+	color: #151515;
 }
 .header_s .ownavigation .navbar-nav li .dropdown-menu li > a { 
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
-	color: #717171;
+	color: #151515;
 	text-transform: capitalize;
 }
 .header_s .ownavigation .navbar-nav li .dropdown-menu li > a:hover { 
@@ -2826,6 +2826,11 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	}
 
 
+	#nav_main{
+		width: 100%;
+	}
+
+
 	
 	/* - Header 3 */
 	.header_s.header_s3 .user-info > li > a {
@@ -2954,7 +2959,7 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 @media (max-width: 991px) {
 	/* + Header */
 	.header_s .mob-clr-change{
-		background-color: #93C4E2;;
+		background-color: #E6B32F;;
 	}
 
 	.header_s {
@@ -2987,6 +2992,9 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 		color: #151515;
 		cursor: pointer;
 		margin: 15px 0;
+	}
+	.header_s .ownavigation .navbar-toggler .sw_small_icon {
+		width: 60px;
 	}
 	.header_s .ownavigation .navbar-toggler:hover, 
 	.header_s .ownavigation .navbar-toggler:focus {
