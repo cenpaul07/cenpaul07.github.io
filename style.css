@@ -299,7 +299,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 } */
 /* - Header 1 */
 .header_s1 {
-	background-color: #fff;
+	background-color: #93C4E2;
 	box-shadow: 1px 1.732px 5px 0px rgba(235, 235, 235, 0.75);
 }
 .header_s .top-header {
@@ -458,6 +458,16 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 	-o-transition: -o-transform 0.4s, opacity 0.1s;
 	transition: transform 0.4s, opacity 0.1s;
 }
+
+#nav_logo{
+	margin-left: 80px;
+}
+
+#nav_logo_message{
+	float: right;
+	margin-right: 80px;
+}
+
 
 /* - Menu Block */
 .header_s.fixed-top {
