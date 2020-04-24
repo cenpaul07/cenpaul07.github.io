@@ -2775,7 +2775,7 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 		margin: 0  auto;
 	}
 	.header_s .menu-block .ownavigation .navbar-nav > li {
-		margin: 0 19px;
+		margin: 0 50px;
 	}
 	.header_s .menu-block .ownavigation .navbar-nav > li > a {
 		margin-bottom: 15px;
@@ -2942,7 +2942,7 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	/* + Header */ 
 	.header_s .menu-block .ownavigation .navbar-nav > li {
-		margin: 0 10px;
+		margin: 0 40px;
 	}
 	/* + Footer */
 	.ftr-social > li {
