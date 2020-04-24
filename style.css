@@ -1180,8 +1180,8 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 
 /* - Page Content */
 .page-content {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 55px;
+	padding-bottom: 55px;
 }
 
 /* + Shortcodes */
@@ -2204,7 +2204,21 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	color: #151515;
 }
 
+/* - Article List -*/
+#article_list{
+	padding-top: 0;
+}
+/* - Article List -*/
+
 /* - Related Post */
+.related-post .read_more_link{
+	color: navy;font-size:14px
+}
+
+.article-small-detail{
+	color:grey;font-size:14px
+}
+
 .related-post {
 	display: inline-block;
 	padding-top: 67px;
