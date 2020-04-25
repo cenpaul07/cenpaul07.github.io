@@ -3612,7 +3612,6 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	font-size: 14px;
 	line-height: 1.7;
 	word-wrap: break-word;
-	text-transform: uppercase;	
 }
 .widget-title {
     color: #151515;
@@ -4147,7 +4146,6 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 	font-size: 12px;
 	display: inline-block;
 	letter-spacing: 0.18px;
-	text-transform: uppercase;
 }
 .widget_latestposts .latest-content span a {
 	color: #a1a1a1;
