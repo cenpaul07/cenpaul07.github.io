@@ -2176,8 +2176,11 @@ article[class*="type-"] .entry-content .entry-footer .social > li  > a:hover {
 }
 .blog-single article[class*="type-"]  .entry-header .post-meta > span > a {
 	color: #717171;
+	font-size: 18px;
 	text-transform: uppercase;
 	text-decoration: none;
+	pointer-events: none;
+	cursor: default
 }
 
 /* - About Author */
