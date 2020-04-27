@@ -110,7 +110,7 @@ h1,h2,h3,h4,h5,h6,p,a,li,span {
 .load-complete .line-scale > div {
 	display: inline-block;
 	border-color: #151515 #151515 transparent;
-	background-color: #151515;
+	background-color: #291c51;
 }
 .load-complete {
     position: fixed;
