@@ -4,6 +4,54 @@
 <!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<style>
+    .example {
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+
+        text-align:center;
+    }
+    .example .fadedbox {
+        background-color: #666666;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #fff;
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        -ms-transition: all 300ms ease-out;
+        transition: all 300ms ease-out;
+        opacity: 0;
+        width: inherit;
+        height: inherit;
+        padding: 170px 85px;
+    }
+    .example:hover .fadedbox { opacity: 0.3; }
+    .example .text {
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        -ms-transition: all 300ms ease-out;
+        transition: all 300ms ease-out;
+        transform: translateY(30px);
+        -webkit-transform: translateY(30px);
+    }
+    .example .title {
+        font-size: 2.5em;
+        text-transform: uppercase;
+        opacity: 0;
+        transition-delay: 0.2s;
+        transition-duration: 0.3s;
+    }
+    .example:hover .title,
+    .example:focus .title {
+        opacity: 1;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+    }
+</style>
 <head>
     <meta charset="utf-8">
 
@@ -119,15 +167,20 @@
                                 <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
                                     <div  class="card">
                                         <a title="Read Now" href="https://online.pubhtml5.com/rury/kjeo/">
-                                            <img class="card-img-top" src="assets/images/covers/Anniversary.jpg">
+                                            <div class="example">
+                                                <img class="card-img-top" src="assets/images/covers/Anniversary.jpg">
+                                                <div class="fadedbox">
+                                                <div class="title text"> Read</div>
+                                                 </div>
+                                            </div>
                                         </a>
                                     </div>
                                     <div class="card-block">
                                         <a target="_blank" href="https://online.pubhtml5.com/rury/kjeo/" title="Read Now">
-                                            April-May 2020
                                             <a class="dropdown-item" href="file.pdf" title="Download Pdf" download>
-                                                <i class="fa fa-download" aria-hidden="true"> </i>
+                                                <h5>Download <i class="fa fa-download" aria-hidden="true"> </i></h5>
                                             </a>
+
                                         </a>
                                     </div>
                                 </div>
