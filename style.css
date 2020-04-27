@@ -1887,7 +1887,7 @@ div.type-post .entry-content {
 	-moz-hyphens: auto;
 	hyphens: auto;
 	font-size: 22px;
-	font-weight: 600;
+	/*font-weight: 600;*/
 }
 
 .type-post .entry-content p:last-of-type {
